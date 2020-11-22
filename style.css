@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+color-red {
+    --red: hsl(0, 78%, 62%);
+}
+color-cyan {
+    --cyan: hsl(180, 62%, 55%);
+}
+
+color-orange {
+    --orange: hsl(34, 97%, 64%);
+}
+
+color-blue {
+    --blue: hsl(212, 86%, 64%);
+}
+
+color-dark-blue {
+    --dark-blue: hsl(234, 12%, 34%);
+}
+
+color-grayish-blue {
+    --grayish-blue: hsl(229, 6%, 66%);
+}
+
+color-ight-gray {
+    --light-gray: hsl(0, 0%, 98%);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header_text {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+
+.header_h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.header_description {
+    text-align: center;
+    font-size: 20px;
+    color: hsl(229, 6%, 66%);
+    margin-bottom: 50px;
+}
+
+.card_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    padding: 40px 40px;
+    width: 360px;
+    height: 225px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+.card_header {
+    font-size: 22px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+
+.card_description {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+}
+
+.card_img {
+    position: absolute;
+    top: 200px;
+    right: 50px;
+}
